@@ -1,0 +1,38 @@
+import { ReactNode } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useLocation } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import FloatingCTA from './FloatingCTA';
+import AgeVerification from './AgeVerification';
+
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
+  const location = useLocation();
+
+  return (
+    <div className="min-h-screen flex flex-col bg-background">
+      <AgeVerification />
+      <Header />
+      <AnimatePresence mode="wait">
+        <motion.main
+          key={location.pathname}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.4 }}
+          className="flex-1 pt-16"
+        >
+          {children}
+        </motion.main>
+      </AnimatePresence>
+      <Footer />
+      <FloatingCTA />
+    </div>
+  );
+};
+
+export default Layout;
