@@ -24,8 +24,8 @@ const Header = () => {
       transition={{ duration: 0.6 }}
       className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-xl border-b border-border/50"
     >
-      <nav className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
+      <nav className="container px-4 md:px-6 py-4 flex items-center justify-between">
+        <Link to="/" onClick={()=>setIsMenuOpen(false)} className="flex items-center gap-2 group">
           <span className="text-3xl">
             <img src={logoImg} alt="Logo" className="w-[55px] md:w-[70px] rounded" />
           </span>
