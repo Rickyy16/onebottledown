@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <Clock className="w-4 h-4 text-primary mt-1" />
-                <span>Mon - Sun: 10AM - 10PM</span>
+                <span>Every Day: Open 24/7</span>
               </li>
             </ul>
           </div>

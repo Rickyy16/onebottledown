@@ -10,8 +10,12 @@ import beerImage from '@/assets/beer-bottles.jpg';
 import blackLabelImg from '@/assets/black-label.jpg';
 import royalStagImg from '@/assets/royal-stag.jpg';
 import blendersPrideImg from '@/assets/blenders-pride.jpg';
+import teachersImg from '@/assets/teachers.jpg';
 import absoluteVodkaImg from '@/assets/absolute-vodka.jpg';
+import smirnoffImg from '@/assets/smirnoff.jpg';
+import magicMomentsImg from '@/assets/magic-moments.jpg';
 import oldMonkImg from '@/assets/old-monk.jpg';
+import mcdowellsImg from '@/assets/mcdowells.jpg';
 import sulaImg from '@/assets/sula.jpg';
 import kingfisherImg from '@/assets/kingfisher.jpg';
 
@@ -24,14 +28,18 @@ const Products = () => {
     { name: 'Black Label', category: 'Whisky', image: blackLabelImg },
     { name: 'Royal Stag', category: 'Whisky', image: royalStagImg },
     { name: 'Blenders Pride', category: 'Whisky', image: blendersPrideImg },
+    { name: 'Teachers\'s', category: 'Whisky', image: teachersImg },
     // { name: 'Single Malt Scotch', category: 'Whisky', image: whiskyImage },
     // { name: 'Premium Bourbon', category: 'Whisky', image: whiskyImage },
     // { name: 'Irish Whiskey', category: 'Whisky', image: whiskyImage },
     { name: 'Absolute Vodka', category: 'Vodka', image: absoluteVodkaImg },
+    { name: 'Smirnoff', category: 'Vodka', image: smirnoffImg },
+    { name: 'Magic Moments', category: 'Vodka', image: magicMomentsImg },
     // { name: 'Crystal Vodka', category: 'Vodka', image: vodkaImage },
     // { name: 'Premium Vodka', category: 'Vodka', image: vodkaImage },
     // { name: 'Flavored Vodka', category: 'Vodka', image: vodkaImage },
     { name: 'Old Monk', category: 'Rum', image: oldMonkImg },
+    { name: 'McDowell\'s', category: 'Rum', image: mcdowellsImg },
     // { name: 'Dark Spiced Rum', category: 'Rum', image: rumImage },
     // { name: 'White Rum', category: 'Rum', image: rumImage },
     // { name: 'Caribbean Aged Rum', category: 'Rum', image: rumImage },

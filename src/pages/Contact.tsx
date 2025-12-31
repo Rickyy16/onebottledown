@@ -104,9 +104,7 @@ const Contact = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  { day: 'Monday - Friday', hours: '10:00 AM - 10:00 PM' },
-                  { day: 'Saturday', hours: '11:00 AM - 11:00 PM' },
-                  { day: 'Sunday', hours: '12:00 PM - 9:00 PM' }
+                  { day: 'Monday - Sunday', hours: '24 hours a day, 7 days a week' }
                 ].map((schedule, index) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-border/30 last:border-0">
                     <span className="text-foreground">{schedule.day}</span>
