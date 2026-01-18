@@ -12,15 +12,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-             <span className="text-3xl">
-            <img src={logoImg} alt="Logo" className="w-[80px] rounded" />
-          </span>
+              <span className="text-3xl">
+                <img src={logoImg} alt="Logo" className="w-[80px] rounded" />
+              </span>
               <span className="font-display text-2xl font-bold gold-gradient-text">
                 One Bottle Down
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Premium liquor delivery service. Quality spirits delivered to your doorstep with care and discretion.
+              Premium liquor delivery in Jaipur, offering fast and discreet service. Enjoy quality whisky, wine, beer, and spirits delivered safely to your doorstep.
             </p>
           </div>
 
@@ -71,11 +71,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
-                <span>Downtown & Surrounding Areas</span>
+                <span>Serving Jaipur & surrounding areas</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <Clock className="w-4 h-4 text-primary mt-1" />
-                <span>Every Day: Open 24/7</span>
+                <span>Open 24/7 for liquor delivery enquiries</span>
               </li>
             </ul>
           </div>
@@ -86,11 +86,10 @@ const Footer = () => {
               Legal Notice
             </h4>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              We do not sell alcohol online. This website is for informational purposes only. 
-              Contact us directly for enquiries and orders.
+              We do not sell alcohol online. This website is for informational purposes only. For liquor delivery enquiries in Jaipur, please contact us directly.
             </p>
             <p className="text-muted-foreground text-sm mt-3">
-              Must be 21+ to order. Drink responsibly.
+              Must be 21 years or older to order. Please drink responsibly.
             </p>
           </div>
         </div>
@@ -101,7 +100,7 @@ const Footer = () => {
               © {currentYear} OneBottleDown. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm">
-              Designed for premium spirits enthusiasts.
+              Trusted premium liquor delivery service in Jaipur.
             </p>
           </div>
         </div>

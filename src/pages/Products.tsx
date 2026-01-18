@@ -73,8 +73,7 @@ const Products = () => {
               Premium <span className="gold-gradient-text">Spirits</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Explore our curated selection of the world's finest liquors. 
-              Contact us to enquire about availability and delivery.
+           Explore our curated range of premium liquor available for delivery in Jaipur. From popular whisky and vodka brands to rum, wine, and beer, we help you find the right bottle for every occasion.
             </p>
           </motion.div>
         </div>
@@ -133,9 +132,7 @@ const Products = () => {
             className="glass-card p-6 md:p-8 text-center max-w-2xl mx-auto"
           >
             <p className="text-muted-foreground text-sm">
-              <strong className="text-foreground">Note:</strong> We do not display prices online. 
-              Product availability and pricing may vary. Please contact us via phone or WhatsApp 
-              for current availability and to place orders.
+              <strong className="text-foreground">Note:</strong> Prices and availability are not listed online. Product selection may vary. Please call or WhatsApp us to check availability and place liquor delivery enquiries in Jaipur.
             </p>
           </motion.div>
         </div>

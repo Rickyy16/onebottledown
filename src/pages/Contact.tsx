@@ -43,8 +43,7 @@ const Contact = () => {
               Contact <span className="gold-gradient-text">Us</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Have questions or ready to place an order? Reach out to us through 
-              your preferred channel and we'll get back to you promptly.
+              Have a question or want to place an order? Get in touch with OneBottleDown for fast and reliable liquor delivery in Jaipur. Call or WhatsApp us, and our team will assist you promptly.
             </p>
           </motion.div>
         </div>
@@ -104,7 +103,7 @@ const Contact = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  { day: 'Monday - Sunday', hours: '24 hours a day, 7 days a week' }
+                  { day: 'Monday - Sunday', hours: 'Available 24 hours a day, 7 days a week for liquor delivery enquiries in Jaipur.' }
                 ].map((schedule, index) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-border/30 last:border-0">
                     <span className="text-foreground">{schedule.day}</span>
@@ -126,15 +125,15 @@ const Contact = () => {
                   <MapPin className="w-6 h-6" />
                 </div>
                 <h3 className="font-display text-2xl font-semibold text-foreground">
-                  Delivery Area
+                 Liquor Delivery Areas in Jaipur
                 </h3>
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  We deliver to the following areas within the city:
+                 We offer fast and reliable liquor delivery across Jaipur, Rajasthan. Our local delivery network ensures timely service in the following areas:
                 </p>
                 <ul className="space-y-2">
-                  {['Central Jaipur', 'West Jaipur', 'South Jaipur', 'East Jaipur', 'North Jaipur'].map((area, index) => (
+                  {['Liquor Delivery in Central Jaipur', 'Liquor Delivery in West Jaipur', 'Liquor Delivery in South Jaipur', 'Liquor Delivery in East Jaipur', 'Liquor Delivery in North Jaipur'].map((area, index) => (
                     <li key={index} className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                       <span className="text-foreground">{area}</span>
@@ -142,7 +141,7 @@ const Contact = () => {
                   ))}
                 </ul>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Not sure if we deliver to your area? Contact us to confirm.
+             Not sure if your location is covered? Contact us to confirm liquor delivery availability in your area.
                 </p>
               </div>
             </motion.div>
@@ -163,8 +162,7 @@ const Contact = () => {
               Ready to <span className="gold-gradient-text">Order?</span>
             </h2>
             <p className="text-muted-foreground mb-8">
-              The fastest way to reach us is via phone or WhatsApp. 
-              Our team is ready to assist you with your order.
+            The fastest way to place an enquiry is by phone or WhatsApp. Our team is ready to help you with premium whisky, wine, beer, and spirits delivery in Jaipur.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gold" size="xl" asChild>

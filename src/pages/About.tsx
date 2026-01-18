@@ -26,9 +26,7 @@ const About = () => {
               Who <span className="gold-gradient-text">We Are</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              OneBottleDown is your trusted partner for premium liquor delivery. 
-              We bring the finest selection of spirits directly to your doorstep with 
-              speed, discretion, and exceptional service.
+            OneBottleDown is a trusted liquor delivery service in Jaipur, offering premium spirits delivered quickly and discreetly to your doorstep. From fine whisky and wine to vodka, rum, and beer, we make enjoying great drinks simple, safe, and reliable.
             </p>
           </motion.div>
         </div>
@@ -56,19 +54,13 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded with a passion for fine spirits and exceptional service, 
-                  OneBottleDown was born from the belief that premium liquor delivery 
-                  should be an effortless, luxurious experience.
+              OneBottleDown was created with a simple idea — premium liquor delivery should be easy, reliable, and stress-free. We wanted to bring the experience of a high-end liquor store directly to customers across Jaipur.
                 </p>
                 <p>
-                  Our team of connoisseurs carefully curates a selection of the world's 
-                  finest whiskies, vodkas, rums, wines, and beers, ensuring that every 
-                  bottle we deliver meets our exacting standards.
+               Our team carefully selects premium whiskies, vodkas, rums, wines, and beers from trusted brands and suppliers. Every bottle we deliver meets our quality standards, ensuring you always receive authentic and well-stored spirits.
                 </p>
                 <p>
-                  We understand that great moments deserve great drinks, which is why 
-                  we're committed to delivering not just products, but experiences 
-                  that elevate your celebrations.
+                 Whether it’s a celebration, a gathering, or a quiet evening at home, we’re here to make sure your favorite drinks reach you on time, every time.
                 </p>
               </div>
             </motion.div>
@@ -87,7 +79,7 @@ const About = () => {
           >
             <span className="text-primary uppercase tracking-widest text-sm">Our Process</span>
             <h2 className="font-display text-3xl md:text-5xl font-bold mt-4 text-foreground">
-              How We <span className="gold-gradient-text">Work</span>
+              How Our <span className="gold-gradient-text">Liquor Delivery Service Works</span>
             </h2>
           </motion.div>
 
@@ -95,23 +87,23 @@ const About = () => {
             {[
               {
                 icon: <Award className="w-8 h-8" />,
-                title: 'Curated Selection',
-                description: 'We handpick only the finest spirits from trusted suppliers and renowned distilleries.'
+                title: 'Carefully Curated Selection',
+                description: 'We handpick premium liquor from reliable suppliers, ensuring quality, authenticity, and variety for our customers in Jaipur.'
               },
               {
                 icon: <Shield className="w-8 h-8" />,
-                title: 'Quality Assurance',
-                description: 'Every bottle is verified for authenticity and stored under optimal conditions.'
+                title: 'Quality & Authenticity Checks',
+                description: 'Every bottle is verified and stored under proper conditions to maintain taste, freshness, and safety.'
               },
               {
                 icon: <Truck className="w-8 h-8" />,
-                title: 'Swift Delivery',
-                description: 'Our dedicated team ensures fast, secure delivery to your specified location.'
+                title: 'Fast & Secure Delivery',
+                description: 'Our local delivery team ensures quick and secure liquor delivery across Jaipur with careful handling.'
               },
               {
                 icon: <Heart className="w-8 h-8" />,
-                title: 'Customer Focus',
-                description: 'Your satisfaction is our priority. We go above and beyond for every order.'
+                title: 'Customer-First Approach',
+                description: 'We focus on excellent service, clear communication, and a smooth experience from enquiry to delivery.'
               }
             ].map((item, index) => (
               <motion.div
@@ -146,7 +138,7 @@ const About = () => {
           >
             <span className="text-primary uppercase tracking-widest text-sm">Our Promise</span>
             <h2 className="font-display text-3xl md:text-5xl font-bold mt-4 text-foreground">
-              Trust & <span className="gold-gradient-text">Compliance</span>
+              Trust, Safety & <span className="gold-gradient-text">Responsible Service</span>
             </h2>
           </motion.div>
 
@@ -159,30 +151,26 @@ const About = () => {
             >
               <div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                  Legal Compliance
+                  Legal & Local Compliance
                 </h3>
                 <p className="text-muted-foreground">
-                  We operate in full compliance with local alcohol regulations. All deliveries 
-                  require age verification, and we reserve the right to refuse service if 
-                  proper identification cannot be provided.
+               We operate in accordance with local alcohol regulations in Rajasthan. All deliveries require valid age verification, and service may be refused if legal requirements are not met.
                 </p>
               </div>
               <div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                  Responsible Service
+                  Responsible Liquor Delivery
                 </h3>
                 <p className="text-muted-foreground">
-                  We promote responsible drinking. Our team is trained to recognize signs of 
-                  intoxication and will not deliver to visibly intoxicated individuals.
+                  We support responsible drinking. Our delivery team is trained to ensure alcohol is delivered only when it is safe and appropriate to do so.
                 </p>
               </div>
               <div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                  Privacy & Discretion
+                  Privacy & Discreet Delivery
                 </h3>
                 <p className="text-muted-foreground">
-                  Your privacy is paramount. All orders are delivered in discreet, 
-                  unmarked packaging, and your information is never shared with third parties.
+                 Customer privacy matters to us. All liquor deliveries are packed discreetly, and your personal information is kept secure and confidential.
                 </p>
               </div>
             </motion.div>
