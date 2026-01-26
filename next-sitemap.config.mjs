@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-module.exports = {
+export default {
   siteUrl: 'https://onebottledown.in',
   generateRobotsTxt: true,
   sitemapSize: 7000,
