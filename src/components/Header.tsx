@@ -25,7 +25,7 @@ const Header = () => {
       className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-xl border-b border-border/50"
     >
       <nav className="container px-4 md:px-6 py-4 flex items-center justify-between" aria-label='Main navigation for liquor delivery in Jaipur'>
-        <Link to="/" onClick={()=>setIsMenuOpen(false)} className="flex items-center gap-2 group">
+        <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 group">
           <span className="text-3xl">
             <img src={logoImg} alt="OneBottleDown – Liquor Delivery in Jaipur" className="w-[55px] md:w-[70px] rounded" />
           </span>
@@ -40,11 +40,10 @@ const Header = () => {
             <li key={link.path}>
               <Link
                 to={link.path}
-                className={`relative font-medium transition-colors duration-300 ${
-                  isActive(link.path)
+                className={`relative font-medium transition-colors duration-300 ${isActive(link.path)
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
-                }`}
+                  }`}
               >
                 {link.name}
                 {isActive(link.path) && (
@@ -88,11 +87,10 @@ const Header = () => {
                   <Link
                     to={link.path}
                     onClick={() => setIsMenuOpen(false)}
-                    className={`block py-2 font-medium transition-colors ${
-                      isActive(link.path)
+                    className={`block py-2 font-medium transition-colors ${isActive(link.path)
                         ? 'text-primary'
                         : 'text-muted-foreground'
-                    }`}
+                      }`}
                   >
                     {link.name}
                   </Link>
