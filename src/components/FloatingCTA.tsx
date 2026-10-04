@@ -1,13 +1,15 @@
-import { motion } from 'framer-motion';
-import { Phone, MessageCircle } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Phone, MessageCircle } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
 
 const FloatingCTA = () => {
   // const phoneNumber = "+91 ";
   // const whatsappNumber = "";
-  const phoneNumber = "+91 6377663382";
-  const whatsappNumber = "6377663382";
-  const whatsappMessage = encodeURIComponent("Hi! I'd like to enquire about your liquor delivery services.");
+  const phoneNumber = "+91 7229999797";
+  const whatsappNumber = "7229999797";
+  const whatsappMessage = encodeURIComponent(
+    "Hi! I'd like to enquire about your liquor delivery services.",
+  );
 
   return (
     <motion.div

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { Phone, MessageCircle, MapPin, Clock } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 import logoImg from "../assets/logo2.png";
 
 const Footer = () => {
@@ -20,7 +20,9 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Premium liquor delivery in Jaipur, offering fast and discreet service. Enjoy quality whisky, wine, beer, and spirits delivered safely to your doorstep.
+              Premium liquor delivery in Jaipur, offering fast and discreet
+              service. Enjoy quality whisky, wine, beer, and spirits delivered
+              safely to your doorstep.
             </p>
           </div>
 
@@ -30,10 +32,10 @@ const Footer = () => {
               Quick Links
             </h4>
             <ul className="space-y-3">
-              {['Home', 'About', 'Products', 'Contact'].map((link) => (
+              {["Home", "About", "Products", "Contact"].map((link) => (
                 <li key={link}>
                   <Link
-                    to={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
+                    to={link === "Home" ? "/" : `/${link.toLowerCase()}`}
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
                   >
                     {link}
@@ -51,17 +53,17 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+91 6377663382"
+                  href="tel:+91 7229999797"
                   // href="tel:+91 "
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Phone className="w-4 h-4 text-primary" />
-                  +91 6377663382
+                  +91 7229999797
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/6377663382"
+                  href="https://wa.me/7229999797"
                   // href=''
                   target="_blank"
                   rel="noopener noreferrer"
@@ -88,7 +90,9 @@ const Footer = () => {
               Legal Notice
             </h4>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              We do not sell alcohol online. This website is for informational purposes only. For liquor delivery enquiries in Jaipur, please contact us directly.
+              We do not sell alcohol online. This website is for informational
+              purposes only. For liquor delivery enquiries in Jaipur, please
+              contact us directly.
             </p>
             <p className="text-muted-foreground text-sm mt-3">
               Must be 21 years or older to order. Please drink responsibly.

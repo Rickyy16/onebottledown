@@ -1,22 +1,22 @@
-import { motion } from 'framer-motion';
-import { ArrowDown, Phone, MessageCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-bottles.jpg';
-import whiskyGlass from '@/assets/whisky-glass.jpg';
+import { motion } from "framer-motion";
+import { ArrowDown, Phone, MessageCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-bottles.jpg";
+import whiskyGlass from "@/assets/whisky-glass.jpg";
 
 const Index = () => {
   const fadeInUp = {
     initial: { opacity: 0, y: 40 },
     animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.6 }
+    transition: { duration: 0.6 },
   };
 
   const staggerContainer = {
     animate: {
       transition: {
-        staggerChildren: 0.1
-      }
-    }
+        staggerChildren: 0.1,
+      },
+    },
   };
 
   return (
@@ -62,7 +62,9 @@ const Index = () => {
               variants={fadeInUp}
               className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
             >
-              Order premium whisky, vodka, rum, wine, and beer online in Jaipur. Enjoy fast local liquor delivery, a premium selection, and discreet service — right to your doorstep.
+              Order premium whisky, vodka, rum, wine, and beer online in Jaipur.
+              Enjoy fast local liquor delivery, a premium selection, and
+              discreet service — right to your doorstep.
             </motion.p>
 
             <motion.div
@@ -71,7 +73,10 @@ const Index = () => {
             >
               <Button variant="gold" size="xl" asChild>
                 {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
-                <a href="tel:+91 6377663382" className="flex items-center gap-2">
+                <a
+                  href="tel:+91 7229999797"
+                  className="flex items-center gap-2"
+                >
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
@@ -79,7 +84,7 @@ const Index = () => {
               <Button variant="outline" size="xl" asChild>
                 <a
                   // href="https://wa.me/?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
-                  href="https://wa.me/6377663382?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
+                  href="https://wa.me/7229999797?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -117,29 +122,35 @@ const Index = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="text-primary uppercase tracking-widest text-sm">Why Choose Us</span>
+            <span className="text-primary uppercase tracking-widest text-sm">
+              Why Choose Us
+            </span>
             <h2 className="font-display text-3xl md:text-5xl font-bold mt-4 text-foreground">
-              <span className="gold-gradient-text">Jaipur’s Trusted </span> Premium Liquor Delivery Service
+              <span className="gold-gradient-text">Jaipur’s Trusted </span>{" "}
+              Premium Liquor Delivery Service
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                icon: '⚡',
-                title: 'Lightning-Fast Delivery',
-                description: 'Get your favorite spirits delivered quickly anywhere in Jaipur.'
+                icon: "⚡",
+                title: "Lightning-Fast Delivery",
+                description:
+                  "Get your favorite spirits delivered quickly anywhere in Jaipur.",
               },
               {
-                icon: '✨',
-                title: 'Premium Spirits & Wines',
-                description: 'Choose from top-quality whiskies, vodkas, wines, beers, and more.'
+                icon: "✨",
+                title: "Premium Spirits & Wines",
+                description:
+                  "Choose from top-quality whiskies, vodkas, wines, beers, and more.",
               },
               {
-                icon: '🔒',
-                title: 'Private & Protected',
-                description: 'Handled professionally with complete privacy and safe, secure packaging.'
-              }
+                icon: "🔒",
+                title: "Private & Protected",
+                description:
+                  "Handled professionally with complete privacy and safe, secure packaging.",
+              },
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -170,17 +181,32 @@ const Index = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="text-primary uppercase tracking-widest text-sm">How It Works</span>
+            <span className="text-primary uppercase tracking-widest text-sm">
+              How It Works
+            </span>
             <h2 className="font-display text-3xl md:text-5xl font-bold mt-4 text-foreground">
-              <span className="gold-gradient-text">Easy & Reliable</span> Liquor Delivery in Jaipur
+              <span className="gold-gradient-text">Easy & Reliable</span> Liquor
+              Delivery in Jaipur
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
-              { step: '01', title: 'Browse Our Selection', desc: 'Explore a wide range of premium liquor, including whisky, vodka, rum, wine, and beer available for delivery in Jaipur.' },
-              { step: '02', title: 'Call or WhatsApp Us', desc: 'Place your enquiry easily via phone or WhatsApp with your preferred drinks and delivery location.' },
-              { step: '03', title: 'Fast Doorstep Delivery', desc: 'Sit back and relax while we deliver your order quickly and discreetly to your doorstep.' }
+              {
+                step: "01",
+                title: "Browse Our Selection",
+                desc: "Explore a wide range of premium liquor, including whisky, vodka, rum, wine, and beer available for delivery in Jaipur.",
+              },
+              {
+                step: "02",
+                title: "Call or WhatsApp Us",
+                desc: "Place your enquiry easily via phone or WhatsApp with your preferred drinks and delivery location.",
+              },
+              {
+                step: "03",
+                title: "Fast Doorstep Delivery",
+                desc: "Sit back and relax while we deliver your order quickly and discreetly to your doorstep.",
+              },
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -212,15 +238,27 @@ const Index = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <span className="text-primary uppercase tracking-widest text-sm">Delivery Coverage</span>
+              <span className="text-primary uppercase tracking-widest text-sm">
+                Delivery Coverage
+              </span>
               <h2 className="font-display text-3xl md:text-5xl font-bold mt-4 mb-6 text-foreground">
-                Liquor Delivery Across <span className="gold-gradient-text">Jaipur</span>
+                Liquor Delivery Across{" "}
+                <span className="gold-gradient-text">Jaipur</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
-                We provide fast and reliable liquor delivery across Jaipur, Rajasthan. Whether you’re in the city center or nearby neighborhoods, we ensure your premium spirits arrive safely and on time.
+                We provide fast and reliable liquor delivery across Jaipur,
+                Rajasthan. Whether you’re in the city center or nearby
+                neighborhoods, we ensure your premium spirits arrive safely and
+                on time.
               </p>
               <ul className="space-y-4">
-                {['Liquor Delivery in Central Jaipur', 'Liquor Delivery in West Jaipur', 'Liquor Delivery in South Jaipur', 'Liquor Delivery in East Jaipur', 'Liquor Delivery in North Jaipur'].map((area, index) => (
+                {[
+                  "Liquor Delivery in Central Jaipur",
+                  "Liquor Delivery in West Jaipur",
+                  "Liquor Delivery in South Jaipur",
+                  "Liquor Delivery in East Jaipur",
+                  "Liquor Delivery in North Jaipur",
+                ].map((area, index) => (
                   <motion.li
                     key={index}
                     initial={{ opacity: 0, x: -20 }}
@@ -265,22 +303,30 @@ const Index = () => {
             className="glass-card p-8 md:p-16 text-center max-w-4xl mx-auto"
           >
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6 text-foreground">
-              Looking for  <span className="gold-gradient-text">Premium Liquor Delivery in Jaipur?</span>
+              Looking for{" "}
+              <span className="gold-gradient-text">
+                Premium Liquor Delivery in Jaipur?
+              </span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-             Contact us today for premium liquor delivery in Jaipur. From fine whisky and wine to beer and spirits, we’re here to help you find the perfect bottle for any occasion.
+              Contact us today for premium liquor delivery in Jaipur. From fine
+              whisky and wine to beer and spirits, we’re here to help you find
+              the perfect bottle for any occasion.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gold" size="xl" asChild>
-                <a href="tel:+91 6377663382" className="flex items-center gap-2">
-                {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
+                <a
+                  href="tel:+91 7229999797"
+                  className="flex items-center gap-2"
+                >
+                  {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
                   <Phone className="w-5 h-5" />
-                  Call +91 6377663382
+                  Call +91 7229999797
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a
-                  href="https://wa.me/6377663382"
+                  href="https://wa.me/7229999797"
                   // href="https://wa.me/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -292,7 +338,8 @@ const Index = () => {
               </Button>
             </div>
             <p className="text-xs text-muted-foreground mt-8">
-              We do not sell alcohol online. Contact us for enquiries only. Alcohol delivery is subject to local laws. Must be 21+ to order.
+              We do not sell alcohol online. Contact us for enquiries only.
+              Alcohol delivery is subject to local laws. Must be 21+ to order.
             </p>
           </motion.div>
         </div>
