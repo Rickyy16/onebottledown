@@ -7,18 +7,18 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+91 ',
-      href: 'tel:+91 ',
-      // value: '+91 6377663382',
-      // href: 'tel:+91 6377663382',
+      // value: '+91 ',
+      // href: 'tel:+91 ',
+      value: '+91 6377663382',
+      href: 'tel:+91 6377663382',
       action: 'Call Now'
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'WhatsApp',
       value: 'Chat with us',
-      href: 'https://wa.me/?text=Hi!%20I\'d%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services.',
-      // href: 'https://wa.me/6377663382?text=Hi!%20I\'d%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services.',
+      // href: 'https://wa.me/?text=Hi!%20I\'d%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services.',
+      href: 'https://wa.me/6377663382?text=Hi!%20I\'d%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services.',
       action: 'Open WhatsApp'
     },
     // {
@@ -169,16 +169,16 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gold" size="xl" asChild>
-                <a href="tel:+91 " className="flex items-center gap-2">
-                {/* <a href="tel:+91 6377663382" className="flex items-center gap-2"> */}
+                {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
+                <a href="tel:+91 6377663382" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
               </Button>
               <Button variant="outline" size="xl" asChild>
                 <a
-                  href="https://wa.me/?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
-                  // href="https://wa.me/6377663382?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
+                  // href="https://wa.me/?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
+                  href="https://wa.me/6377663382?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"

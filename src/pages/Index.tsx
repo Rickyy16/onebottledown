@@ -70,16 +70,16 @@ const Index = () => {
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
               <Button variant="gold" size="xl" asChild>
-                <a href="tel:+91 " className="flex items-center gap-2">
-                {/* <a href="tel:+91 6377663382" className="flex items-center gap-2"> */}
+                {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
+                <a href="tel:+91 6377663382" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
               </Button>
               <Button variant="outline" size="xl" asChild>
                 <a
-                  href="https://wa.me/?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
-                  // href="https://wa.me/6377663382?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
+                  // href="https://wa.me/?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
+                  href="https://wa.me/6377663382?text=Hi!%20I'd%20like%20to%20enquire%20about%20your%20liquor%20delivery%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -272,16 +272,16 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gold" size="xl" asChild>
-                {/* <a href="tel:+91 6377663382" className="flex items-center gap-2"> */}
-                <a href="tel:+91 " className="flex items-center gap-2">
+                <a href="tel:+91 6377663382" className="flex items-center gap-2">
+                {/* <a href="tel:+91 " className="flex items-center gap-2"> */}
                   <Phone className="w-5 h-5" />
-                  {/* Call +91 6377663382 */}
+                  Call +91 6377663382
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a
-                  // href="https://wa.me/6377663382"
-                  href="https://wa.me/"
+                  href="https://wa.me/6377663382"
+                  // href="https://wa.me/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"

@@ -3,10 +3,10 @@ import { Phone, MessageCircle } from 'lucide-react';
 import { BsWhatsapp } from "react-icons/bs";
 
 const FloatingCTA = () => {
-  const phoneNumber = "+91 ";
-  const whatsappNumber = "";
-  // const phoneNumber = "+91 6377663382";
-  // const whatsappNumber = "6377663382";
+  // const phoneNumber = "+91 ";
+  // const whatsappNumber = "";
+  const phoneNumber = "+91 6377663382";
+  const whatsappNumber = "6377663382";
   const whatsappMessage = encodeURIComponent("Hi! I'd like to enquire about your liquor delivery services.");
 
   return (
